@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33B224BA183275D700BFD1AF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B224B9183275D700BFD1AF /* icon.png */; };
+		33B224BC1832795400BFD1AF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B224BB1832795400BFD1AF /* icon.png */; };
+		33B224BE18327C5400BFD1AF /* appicon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B224BD18327C5400BFD1AF /* appicon_114.png */; };
+		33B224C018327D9700BFD1AF /* PerfectoMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B224BF18327D9700BFD1AF /* PerfectoMobile.framework */; };
+		33B8E246174D3D5700602A18 /* PayCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B8E245174D3D5700602A18 /* PayCardViewController.m */; };
+		33C4E34B174A73D700A3160F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4E34A174A73D700A3160F /* UIKit.framework */; };
+		33C4E34D174A73D700A3160F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4E34C174A73D700A3160F /* Foundation.framework */; };
+		33C4E34F174A73D700A3160F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4E34E174A73D700A3160F /* CoreGraphics.framework */; };
+		33C4E355174A73D700A3160F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33C4E353174A73D700A3160F /* InfoPlist.strings */; };
+		33C4E357174A73D700A3160F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4E356174A73D700A3160F /* main.m */; };
+		33C4E35B174A73D700A3160F /* abcBankAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4E35A174A73D700A3160F /* abcBankAppDelegate.m */; };
+		33C4E35D174A73D700A3160F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C4E35C174A73D700A3160F /* Default.png */; };
+		33C4E35F174A73D700A3160F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C4E35E174A73D700A3160F /* Default@2x.png */; };
+		33C4E361174A73D700A3160F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C4E360174A73D700A3160F /* Default-568h@2x.png */; };
+		33C4E364174A73D700A3160F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C4E362174A73D700A3160F /* MainStoryboard_iPhone.storyboard */; };
+		33C4E367174A73D700A3160F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C4E365174A73D700A3160F /* MainStoryboard_iPad.storyboard */; };
+		33C4E36A174A73D700A3160F /* abcBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4E369174A73D700A3160F /* abcBankViewController.m */; };
+		33C4E372174A755A00A3160F /* abcBankBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4E371174A755A00A3160F /* abcBankBrain.m */; };
+		33C4E375174A87BD00A3160F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4E374174A87BD00A3160F /* LoginViewController.m */; };
+		33C4E378174A9E6900A3160F /* CheckingHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4E377174A9E6900A3160F /* CheckingHistoryViewController.m */; };
+		33C4E37B174AA04800A3160F /* CreditHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4E37A174AA04800A3160F /* CreditHistoryViewController.m */; };
+		33C4E37E174AA2A300A3160F /* SavingsHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4E37D174AA2A300A3160F /* SavingsHistoryViewController.m */; };
+		33C4E381174AA72100A3160F /* BalancesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4E380174AA72100A3160F /* BalancesViewController.m */; };
+		33C4E384174ABF0C00A3160F /* TransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4E383174ABF0C00A3160F /* TransferViewController.m */; };
+		33C4E38A174D078A00A3160F /* PickerViewField.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4E389174D078A00A3160F /* PickerViewField.m */; };
+		33D0C43617C4171B00637AAB /* abcBank_Network in Resources */ = {isa = PBXBuildFile; fileRef = 33D0C43517C4171B00637AAB /* abcBank_Network */; };
+		33D50756176656820025EB1F /* TestImage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 33D50755176656820025EB1F /* TestImage4.png */; };
+		33D50759176659270025EB1F /* abcBank_Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D50758176659270025EB1F /* abcBank_Network.m */; };
+		33D5075D176753B20025EB1F /* bigimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 33D5075C176753B20025EB1F /* bigimage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33B224B9183275D700BFD1AF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		33B224BB1832795400BFD1AF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		33B224BD18327C5400BFD1AF /* appicon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_114.png; sourceTree = "<group>"; };
+		33B224BF18327D9700BFD1AF /* PerfectoMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectoMobile.framework; path = ../../../Desktop/PerfectoMobile.framework; sourceTree = "<group>"; };
+		33B8E244174D3D5700602A18 /* PayCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayCardViewController.h; sourceTree = "<group>"; };
+		33B8E245174D3D5700602A18 /* PayCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayCardViewController.m; sourceTree = "<group>"; };
+		33C4E347174A73D700A3160F /* abcBankDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = abcBankDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C4E34A174A73D700A3160F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33C4E34C174A73D700A3160F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33C4E34E174A73D700A3160F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33C4E352174A73D700A3160F /* abcBankDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "abcBankDemo-Info.plist"; sourceTree = "<group>"; };
+		33C4E354174A73D700A3160F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33C4E356174A73D700A3160F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33C4E358174A73D700A3160F /* abcBankDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "abcBankDemo-Prefix.pch"; sourceTree = "<group>"; };
+		33C4E359174A73D700A3160F /* abcBankAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abcBankAppDelegate.h; sourceTree = "<group>"; };
+		33C4E35A174A73D700A3160F /* abcBankAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abcBankAppDelegate.m; sourceTree = "<group>"; };
+		33C4E35C174A73D700A3160F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		33C4E35E174A73D700A3160F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		33C4E360174A73D700A3160F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		33C4E363174A73D700A3160F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		33C4E366174A73D700A3160F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		33C4E368174A73D700A3160F /* abcBankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abcBankViewController.h; sourceTree = "<group>"; };
+		33C4E369174A73D700A3160F /* abcBankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abcBankViewController.m; sourceTree = "<group>"; };
+		33C4E370174A755A00A3160F /* abcBankBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abcBankBrain.h; sourceTree = "<group>"; };
+		33C4E371174A755A00A3160F /* abcBankBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = abcBankBrain.m; sourceTree = "<group>"; };
+		33C4E373174A87BD00A3160F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		33C4E374174A87BD00A3160F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		33C4E376174A9E6900A3160F /* CheckingHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckingHistoryViewController.h; sourceTree = "<group>"; };
+		33C4E377174A9E6900A3160F /* CheckingHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckingHistoryViewController.m; sourceTree = "<group>"; };
+		33C4E379174AA04800A3160F /* CreditHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditHistoryViewController.h; sourceTree = "<group>"; };
+		33C4E37A174AA04800A3160F /* CreditHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditHistoryViewController.m; sourceTree = "<group>"; };
+		33C4E37C174AA2A300A3160F /* SavingsHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavingsHistoryViewController.h; sourceTree = "<group>"; };
+		33C4E37D174AA2A300A3160F /* SavingsHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavingsHistoryViewController.m; sourceTree = "<group>"; };
+		33C4E37F174AA72100A3160F /* BalancesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalancesViewController.h; sourceTree = "<group>"; };
+		33C4E380174AA72100A3160F /* BalancesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalancesViewController.m; sourceTree = "<group>"; };
+		33C4E382174ABF0C00A3160F /* TransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferViewController.h; sourceTree = "<group>"; };
+		33C4E383174ABF0C00A3160F /* TransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferViewController.m; sourceTree = "<group>"; };
+		33C4E388174D078A00A3160F /* PickerViewField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewField.h; sourceTree = "<group>"; };
+		33C4E389174D078A00A3160F /* PickerViewField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewField.m; sourceTree = "<group>"; };
+		33D0C43517C4171B00637AAB /* abcBank_Network */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abcBank_Network; sourceTree = "<group>"; };
+		33D50755176656820025EB1F /* TestImage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TestImage4.png; path = ../TestImage4.png; sourceTree = "<group>"; };
+		33D50757176659270025EB1F /* abcBank_Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abcBank_Network.h; sourceTree = "<group>"; };
+		33D50758176659270025EB1F /* abcBank_Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = abcBank_Network.m; sourceTree = "<group>"; };
+		33D5075C176753B20025EB1F /* bigimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigimage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33C4E344174A73D700A3160F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C4E34B174A73D700A3160F /* UIKit.framework in Frameworks */,
+				33C4E34D174A73D700A3160F /* Foundation.framework in Frameworks */,
+				33C4E34F174A73D700A3160F /* CoreGraphics.framework in Frameworks */,
+				33B224C018327D9700BFD1AF /* PerfectoMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33C4E33E174A73D700A3160F = {
+			isa = PBXGroup;
+			children = (
+				33B224BF18327D9700BFD1AF /* PerfectoMobile.framework */,
+				33B224BD18327C5400BFD1AF /* appicon_114.png */,
+				33B224BB1832795400BFD1AF /* icon.png */,
+				33C4E350174A73D700A3160F /* abcBankDemo */,
+				33C4E349174A73D700A3160F /* Frameworks */,
+				33C4E348174A73D700A3160F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33C4E348174A73D700A3160F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33C4E347174A73D700A3160F /* abcBankDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33C4E349174A73D700A3160F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33C4E34A174A73D700A3160F /* UIKit.framework */,
+				33C4E34C174A73D700A3160F /* Foundation.framework */,
+				33C4E34E174A73D700A3160F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33C4E350174A73D700A3160F /* abcBankDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33C4E359174A73D700A3160F /* abcBankAppDelegate.h */,
+				33C4E35A174A73D700A3160F /* abcBankAppDelegate.m */,
+				33C4E362174A73D700A3160F /* MainStoryboard_iPhone.storyboard */,
+				33B8E244174D3D5700602A18 /* PayCardViewController.h */,
+				33B8E245174D3D5700602A18 /* PayCardViewController.m */,
+				33C4E388174D078A00A3160F /* PickerViewField.h */,
+				33C4E389174D078A00A3160F /* PickerViewField.m */,
+				33C4E382174ABF0C00A3160F /* TransferViewController.h */,
+				33C4E383174ABF0C00A3160F /* TransferViewController.m */,
+				33C4E37F174AA72100A3160F /* BalancesViewController.h */,
+				33C4E380174AA72100A3160F /* BalancesViewController.m */,
+				33C4E37C174AA2A300A3160F /* SavingsHistoryViewController.h */,
+				33C4E37D174AA2A300A3160F /* SavingsHistoryViewController.m */,
+				33C4E379174AA04800A3160F /* CreditHistoryViewController.h */,
+				33C4E37A174AA04800A3160F /* CreditHistoryViewController.m */,
+				33C4E373174A87BD00A3160F /* LoginViewController.h */,
+				33C4E374174A87BD00A3160F /* LoginViewController.m */,
+				33C4E365174A73D700A3160F /* MainStoryboard_iPad.storyboard */,
+				33C4E368174A73D700A3160F /* abcBankViewController.h */,
+				33C4E369174A73D700A3160F /* abcBankViewController.m */,
+				33C4E376174A9E6900A3160F /* CheckingHistoryViewController.h */,
+				33C4E377174A9E6900A3160F /* CheckingHistoryViewController.m */,
+				33C4E370174A755A00A3160F /* abcBankBrain.h */,
+				33C4E371174A755A00A3160F /* abcBankBrain.m */,
+				33C4E351174A73D700A3160F /* Supporting Files */,
+				33D50757176659270025EB1F /* abcBank_Network.h */,
+				33D50758176659270025EB1F /* abcBank_Network.m */,
+				33D0C43517C4171B00637AAB /* abcBank_Network */,
+			);
+			path = abcBankDemo;
+			sourceTree = "<group>";
+		};
+		33C4E351174A73D700A3160F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33B224B9183275D700BFD1AF /* icon.png */,
+				33D5075C176753B20025EB1F /* bigimage.png */,
+				33D50755176656820025EB1F /* TestImage4.png */,
+				33C4E352174A73D700A3160F /* abcBankDemo-Info.plist */,
+				33C4E353174A73D700A3160F /* InfoPlist.strings */,
+				33C4E356174A73D700A3160F /* main.m */,
+				33C4E358174A73D700A3160F /* abcBankDemo-Prefix.pch */,
+				33C4E35C174A73D700A3160F /* Default.png */,
+				33C4E35E174A73D700A3160F /* Default@2x.png */,
+				33C4E360174A73D700A3160F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33C4E346174A73D700A3160F /* abcBankDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33C4E36D174A73D700A3160F /* Build configuration list for PBXNativeTarget "abcBankDemo" */;
+			buildPhases = (
+				33C4E343174A73D700A3160F /* Sources */,
+				33C4E344174A73D700A3160F /* Frameworks */,
+				33C4E345174A73D700A3160F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = abcBankDemo;
+			productName = abcBankDemo;
+			productReference = 33C4E347174A73D700A3160F /* abcBankDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33C4E33F174A73D700A3160F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = abcBank;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Orasi Software";
+			};
+			buildConfigurationList = 33C4E342174A73D700A3160F /* Build configuration list for PBXProject "abcBankDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 33C4E33E174A73D700A3160F;
+			productRefGroup = 33C4E348174A73D700A3160F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33C4E346174A73D700A3160F /* abcBankDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33C4E345174A73D700A3160F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C4E355174A73D700A3160F /* InfoPlist.strings in Resources */,
+				33C4E35D174A73D700A3160F /* Default.png in Resources */,
+				33C4E35F174A73D700A3160F /* Default@2x.png in Resources */,
+				33C4E361174A73D700A3160F /* Default-568h@2x.png in Resources */,
+				33C4E364174A73D700A3160F /* MainStoryboard_iPhone.storyboard in Resources */,
+				33C4E367174A73D700A3160F /* MainStoryboard_iPad.storyboard in Resources */,
+				33D50756176656820025EB1F /* TestImage4.png in Resources */,
+				33D5075D176753B20025EB1F /* bigimage.png in Resources */,
+				33D0C43617C4171B00637AAB /* abcBank_Network in Resources */,
+				33B224BA183275D700BFD1AF /* icon.png in Resources */,
+				33B224BC1832795400BFD1AF /* icon.png in Resources */,
+				33B224BE18327C5400BFD1AF /* appicon_114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33C4E343174A73D700A3160F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C4E357174A73D700A3160F /* main.m in Sources */,
+				33C4E35B174A73D700A3160F /* abcBankAppDelegate.m in Sources */,
+				33C4E36A174A73D700A3160F /* abcBankViewController.m in Sources */,
+				33C4E372174A755A00A3160F /* abcBankBrain.m in Sources */,
+				33C4E375174A87BD00A3160F /* LoginViewController.m in Sources */,
+				33C4E378174A9E6900A3160F /* CheckingHistoryViewController.m in Sources */,
+				33C4E37B174AA04800A3160F /* CreditHistoryViewController.m in Sources */,
+				33C4E37E174AA2A300A3160F /* SavingsHistoryViewController.m in Sources */,
+				33C4E381174AA72100A3160F /* BalancesViewController.m in Sources */,
+				33C4E384174ABF0C00A3160F /* TransferViewController.m in Sources */,
+				33C4E38A174D078A00A3160F /* PickerViewField.m in Sources */,
+				33B8E246174D3D5700602A18 /* PayCardViewController.m in Sources */,
+				33D50759176659270025EB1F /* abcBank_Network.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33C4E353174A73D700A3160F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33C4E354174A73D700A3160F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33C4E362174A73D700A3160F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33C4E363174A73D700A3160F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		33C4E365174A73D700A3160F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33C4E366174A73D700A3160F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33C4E36B174A73D700A3160F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Orasi Software, Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Orasi Software, Inc";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1A74A651-8286-42BB-8987-8695C6F4DCAF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1A74A651-8286-42BB-8987-8695C6F4DCAF";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		33C4E36C174A73D700A3160F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Orasi Software, Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Orasi Software, Inc";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "1A74A651-8286-42BB-8987-8695C6F4DCAF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1A74A651-8286-42BB-8987-8695C6F4DCAF";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33C4E36E174A73D700A3160F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Desktop\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "abcBankDemo/abcBankDemo-Prefix.pch";
+				INFOPLIST_FILE = "abcBankDemo/abcBankDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33C4E36F174A73D700A3160F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Desktop\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "abcBankDemo/abcBankDemo-Prefix.pch";
+				INFOPLIST_FILE = "abcBankDemo/abcBankDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33C4E342174A73D700A3160F /* Build configuration list for PBXProject "abcBankDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C4E36B174A73D700A3160F /* Debug */,
+				33C4E36C174A73D700A3160F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33C4E36D174A73D700A3160F /* Build configuration list for PBXNativeTarget "abcBankDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C4E36E174A73D700A3160F /* Debug */,
+				33C4E36F174A73D700A3160F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33C4E33F174A73D700A3160F /* Project object */;
+}
